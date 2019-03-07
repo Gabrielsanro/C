@@ -39,21 +39,16 @@ int main(void) {
     		if (num % i == 0) {
        		resultado++;
        		break;
-    			}
+    		}
  			}
  
  			if (resultado == 0)
     			printf("%d \ne um numero primo", num);
  			else{
-    			printf("%d \nnao e um numero primo\n", num);
- 
- 			
+    			printf("%d \nnao é um numero primo\n", num);
 			}
-    	
-    	
-    	
       menu();
-      break;
+      break;	
     
     case 3:
       menu();
