@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void ExibeMenu(){       //FUNÇAO QUE EXIBE AS OPÇÕES DO MENU
+void ExibeMenu(){       //FUN�AO QUE EXIBE AS OP��ES DO MENU
 	
 	printf("\n-----------------------MENU-----------------------\n");
 	printf("1 - Calcular fatorial: \n");
@@ -17,7 +17,7 @@ void ExibeMenu(){       //FUNÇAO QUE EXIBE AS OPÇÕES DO MENU
 	
 }
 
-int Fatorial(){         //FUNÇÃO PARA CALCULO DE FATORIAL
+int Fatorial(){         //FUN��O PARA CALCULO DE FATORIAL
 
 	int i, num, result;
 	
@@ -38,7 +38,7 @@ int Fatorial(){         //FUNÇÃO PARA CALCULO DE FATORIAL
 	return 0;
 }
 
-int Primo(){			//FUNÇÃO PARA VERIFICAÇÃO DE NUMERO PRIMO
+int Primo(){			//FUN��O PARA VERIFICA��O DE NUMERO PRIMO
 	int num, i=0, primo=0;
 	
 	printf("Informe um numero inteiro: ");
@@ -59,7 +59,7 @@ int Primo(){			//FUNÇÃO PARA VERIFICAÇÃO DE NUMERO PRIMO
 	}
 }
 
-void NPrimo(){			//FUNÇÃO PARA VERIFICAÇÃO DE VÁRIOS NUMEROS PRIMOS
+void NPrimo(){			//FUN��O PARA VERIFICA��O DE V�RIOS NUMEROS PRIMOS
 	int num, i=0, primo;
 	
 	do{
@@ -87,7 +87,7 @@ void NPrimo(){			//FUNÇÃO PARA VERIFICAÇÃO DE VÁRIOS NUMEROS PRIMOS
 	}while(num!=0);
 }
 
-void Potencia(){		//FUNÇÃO PARA CALCULAR POTENCIA DE UM NUMERO A ELEVADO A B
+void Potencia(){		//FUN��O PARA CALCULAR POTENCIA DE UM NUMERO A ELEVADO A B
 	float a, potencia;
 	int i,b;
 	
@@ -100,7 +100,7 @@ void Potencia(){		//FUNÇÃO PARA CALCULAR POTENCIA DE UM NUMERO A ELEVADO A B
 	printf("Valor de %.1f elevado a %d = %.1e \n",a,b,potencia);
 }
 
-void Raiz(){			//FUNÇÃO PARA CALCULAR A RAIZ DE UM NUMERO A NA BASE B
+void Raiz(){			//FUN��O PARA CALCULAR A RAIZ DE UM NUMERO A NA BASE B
 	float a, raiz;
 	int i,b;
 	
@@ -113,7 +113,7 @@ void Raiz(){			//FUNÇÃO PARA CALCULAR A RAIZ DE UM NUMERO A NA BASE B
 	printf("Raiz de %.1f na base %d = %.1e \n",a,b,raiz);
 }
 
-void Bissexto(){		//FUNÇÃO PARA VERIFICAR ANO BISSEXTO
+void Bissexto(){		//FUN��O PARA VERIFICAR ANO BISSEXTO
 	int ano;
 	
 	printf("Informe o ano a ser verificado: \n");
@@ -127,7 +127,7 @@ void Bissexto(){		//FUNÇÃO PARA VERIFICAR ANO BISSEXTO
 	}
 }
 
-void Media2(){			//FUNÇÃO PARA CALCULAR MEDIA ARITMETICA DE DUAS NOTAS
+void Media2(){			//FUN��O PARA CALCULAR MEDIA ARITMETICA DE DUAS NOTAS
 	float nota1, nota2, media;
 	
 	printf("Informe a primeira nota: \n");
@@ -163,7 +163,7 @@ void MediaP(){			//FUNCAO PARA CALCULAR MEDIA PONDERADA DE TRES NOTAS
 	}
 }
 
-void ExibeMatricula(){	//FUNÇÃO PARA EXIBIR O NOME E DEPOIS A MATRICULA EM HEXADECIMAL
+void ExibeMatricula(){	//FUN��O PARA EXIBIR O NOME E DEPOIS A MATRICULA EM HEXADECIMAL
 	char nome[40];
 	int matricula;
 	
